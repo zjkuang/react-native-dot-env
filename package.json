@@ -1,6 +1,6 @@
 {
   "name": "@zjkuang/react-native-dot-env",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package for managing .env file in React Native projects",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
