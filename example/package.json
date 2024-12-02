@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "pod": "yarn pod-install --repo-update",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
@@ -23,6 +24,7 @@
     "@react-native/babel-preset": "0.76.3",
     "@react-native/metro-config": "0.76.3",
     "@react-native/typescript-config": "0.76.3",
+    "pod-install": "^0.3.2",
     "react-native-builder-bob": "^0.33.3"
   },
   "engines": {
