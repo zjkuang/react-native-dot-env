@@ -5,13 +5,15 @@ import { multiply } from '@zjkuang/react-native-dot-env';
 export default function App() {
   const [result, setResult] = useState<number | undefined>();
 
+  const [a, b] = [3, 7];
+
   useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+    multiply(a, b).then(setResult);
+  }, [a, b]);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>{`${a} x ${b} = ${result}`}</Text>
     </View>
   );
 }
