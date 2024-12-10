@@ -1,10 +1,11 @@
 {
   "name": "@zjkuang/react-native-dot-env",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A package for managing .env file in React Native projects",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
+  "types": "./lib/typescript/commonjs/src/index.d.ts",
   "exports": {
     ".": {
       "import": {
@@ -176,7 +177,6 @@
       [
         "typescript",
         {
-          "project": "tsconfig.build.json",
           "esm": true
         }
       ]

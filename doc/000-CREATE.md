@@ -29,15 +29,15 @@ See CONTRIBUTING.md for more details. Good luck!
 
 # Build & Run
 
-% cd example
+$ cd example
 
 example/Gemfile
 ```
 gem 'cocoapods', '>= 1.13', '!= 1.15.0', '!= 1.15.1', '!= 1.15.2'
 ```
-(example/) % bundle install
+(example/) $ bundle install
 
-(example/) % yarn add pod-install -D
+(example/) $ yarn add pod-install -D
 
 example/package.json
 ```
@@ -52,8 +52,8 @@ example/package.json
 }
 ```
 
-(example/) % yarn pod
+(example/) $ yarn pod
 
-(example/) % yarn start
+(example/) $ yarn start
 
 (Run it from Xcode and Android Studio ...)

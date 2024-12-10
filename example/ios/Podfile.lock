@@ -1511,7 +1511,7 @@ PODS:
     - React-utils (= 0.76.3)
   - SocketRocket (0.7.1)
   - Yoga (0.0.0)
-  - zjkuang-react-native-dot-env (0.1.0):
+  - zjkuang-react-native-dot-env (0.1.3):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1801,7 +1801,7 @@ SPEC CHECKSUMS:
   ReactCommon: b8485556b596ef2f44f59bc586113bda138fb804
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: f6dc1b6029519815d5516a1241821c6a9074af6d
-  zjkuang-react-native-dot-env: f27e9b77da797a564ea688ac6b8ab68cf7bfa1fe
+  zjkuang-react-native-dot-env: d61ed6c34482f409f18a94e97e05188cac9ab0c0
 
 PODFILE CHECKSUM: 77aaf39739d0316081a89e05764f539a8e8dd59f
 

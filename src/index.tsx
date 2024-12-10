@@ -20,3 +20,11 @@ const ReactNativeDotEnv = NativeModules.ReactNativeDotEnv
 export function multiply(a: number, b: number): Promise<number> {
   return ReactNativeDotEnv.multiply(a, b);
 }
+
+export function pwd(): Promise<string> {
+  return ReactNativeDotEnv.pwd();
+}
+
+export function ls(path: string): Promise<any> {
+  return ReactNativeDotEnv.ls(path);
+}
